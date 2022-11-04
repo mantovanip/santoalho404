@@ -97,6 +97,7 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 45px;
     font-size: 12px;
+    border:1px solid #000;
     word-spacing: 0px;
     position:block;
     text-align: center;
@@ -113,12 +114,13 @@ body {
 }
 .toepedindorodape{
     align-items:center;
-    justify-content: center;
     display: flex;
     font-size: 12px;
     line-height: 20px;
     text-decoration: none solid rgb(0, 0, 0);
-    max-width: 150px;
+    max-width: 120px;
+    justify-content: space-evenly;
+
 }
 
 /* ABOUT CSS */
