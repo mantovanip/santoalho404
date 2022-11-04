@@ -16,7 +16,7 @@ html,body{
     justify-content: space-between;
     padding: 0 10vw 0 10vw;
     height: 18vh;
-    align-content: left;
+    align-content: left;  
 }
 
 
@@ -183,13 +183,24 @@ li span{
     box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
 }
 
+.infoCards .one .cardoneImg{
+    width: 180px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
 .infoCards .two .cardtwoImg{
     width: 158px;
     position: absolute;
     top: -50px;
     right: -50px;
 }
-
+.infoCards .three .cardthreeImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
 
 .cardbgone{
     height: 150px;
