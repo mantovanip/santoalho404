@@ -68,7 +68,7 @@ body {
 }
 
 .landingText h1 {
-    font-size: 6vw;
+    font-size: 8vw;
     margin: 0 !important;
 }
 
@@ -343,7 +343,7 @@ body::-webkit-scrollbar {
     }
 
     .landingText h1 {
-        font-size: 6vw;
+        font-size: 9vw;
         margin: 0 !important;
     }
 
