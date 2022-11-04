@@ -112,16 +112,25 @@ body {
 .landingImage img {
     width: 28vw;
 }
-#toepedindorodape{
-    align-items:center;
-    display: flex;
-    font-size: 13px;
-    line-height: 20px;
-    text-decoration: none solid rgb(0, 0, 0);
-    max-width: 120px;
-    justify-content: space-evenly;
-
+.link-alloy {
+    margin-top: 20px;
+    padding: 3px 10px 2px;
+    border: 1.5px solid #000;
+    border-radius: 30px;
+    background-color: transparent;
+    opacity: .7;
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
 }
+
+    .div-block-715 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        font-size: 13px;
+        text-align: center;
+    }
 
 /* ABOUT CSS */
 
