@@ -42,14 +42,17 @@ body {
 }
 
 .nav .links a {
+    border-radius: 30px;
     margin-right: 25px;
     font-size: 22px;
     font-weight: 600;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 .nav .links .mainlink {
-    color: #000;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+
 }
 
 .nav h4 {
