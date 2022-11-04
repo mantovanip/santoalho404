@@ -89,6 +89,15 @@ body {
     border-radius: 45px;
     text-align: center;
 }
+.whats {
+    color: #fff;
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #22ed17;
+    border-radius: 45px;
+    text-align: center;
+}
 
 .landingText .btn a {
     font-size: 1.2vw;
