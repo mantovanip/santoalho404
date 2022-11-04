@@ -13,13 +13,14 @@ body {
 
 .logo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding: 0 10vw 0 10vw;
     height: 18vh;
     align-content: left;
+    border-radius: 30px;
 }
-
+.whats{
+    max-width: 50px;
+}
 
 .nav {
     position: fixed;
@@ -89,15 +90,18 @@ body {
     border-radius: 45px;
     text-align: center;
 }
-.whats {
+.criaempresa {
     color: #fff;
-    width: 120px;
     margin-top: 30px;
     padding: 14px 20px 14px 20px;
-    background-color:#31BA46;
+    background-color: rgb(255, 255, 255);
     border-radius: 45px;
+    font-size: 12px;
+    word-spacing: 0px;
+    position:block;
     text-align: center;
 }
+
 
 .landingText .btn a {
     font-size: 1.2vw;
@@ -107,7 +111,15 @@ body {
 .landingImage img {
     width: 28vw;
 }
-
+.toepedindorodape{
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none solid rgb(0, 0, 0);
+    max-width: 150px;
+}
 
 /* ABOUT CSS */
 
