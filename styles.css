@@ -253,7 +253,7 @@ li span{
 /* Banner */
 
 .banner{
-    height: 400px;
+    height: 200px;
     background-color: #ED7F17;
     display: flex;
     flex-direction: row;
