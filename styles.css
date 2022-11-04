@@ -15,9 +15,7 @@ body {
     display: flex;
     padding: 0 10vw 0 10vw;
     height: 18vh;
-    align-content: left;
-    border-radius: 30px;
-    
+    align-content: left;   
 }
 .whats{
     max-width: 50px;
