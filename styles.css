@@ -534,14 +534,18 @@ body::-webkit-scrollbar-thumb {
     }
 
     .aboutText img {
-        width: 16vw;
+        width: 16px;
         top: 10px;
-        left: -20px;
+        left: 20px;
     }
 
-    .aboutList , .historia{
-        text-align: justify;
-        width: 500px;
+    .aboutList  .historia{
+        position: sticky;
+        top: 70px;
+        margin-left: -60px;
+        margin-top: 80px;
+        float: left;
+        margin: bottom 0;
     }
 
 
@@ -556,7 +560,7 @@ body::-webkit-scrollbar-thumb {
 
     .infoCards {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 50px;
         justify-content: center;
         align-items: center;
