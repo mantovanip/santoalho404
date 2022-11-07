@@ -177,10 +177,6 @@ body {
      width: 260px;
      border: 2px solid rgb(0, 0, 0);
      border-top: 2px solid rgb(0, 0, 0);
-     top: 0px;
-     bottom: 0px;
-     right: 0px;
-     left: 0px;
      float: none;
      display: flex;
      clear: none;
@@ -189,7 +185,6 @@ body {
  
  
      /* Table */
-     border-collapse: separate;
      border-spacing: 0px 0px;
      caption-side: top;
      empty-cells: show;
@@ -201,8 +196,7 @@ body {
      visibility: visible;
  
      /* Effects */
-     transform: none;
-     transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    
      outline-offset: 0px;
      box-sizing: border-box;
      resize: none;
@@ -278,28 +272,26 @@ body {
 
 ol {
     list-style: none;
-    color: #ED7F17;
+ 
 }
 
 ol li {
-    font-size: 34px;
+    font-size: 14px;
     position: relative;
     margin-bottom: 20px;
-    border-bottom: 1px solid #ED7F17;
 }
 
 li p {
-    font-size: 16px;
+    font-size: 1.1rem;
     color: #000;
-    padding-left: 60px;
-    line-height: 30px;
+    padding:0 30px 0 30px;
+    line-height: 18px;
     opacity: 0.6;
 }
 
 li span {
     position: absolute;
     line-height: 5px;
-    font-weight: 600;
 }
 
 /* INFO_SECTION CSS */
@@ -384,9 +376,6 @@ li span {
     opacity: 0.6
 }
 
-
-
-
 .cardContent .cardBtn:hover {
     background-color: #ffffff;
 }
@@ -396,7 +385,7 @@ li span {
 /* Banner */
 
 .banner {
-    height: 125px;
+    height: 95px;
     background-color: #ED7F17;
     display: flex;
     flex-direction: row;
@@ -496,14 +485,14 @@ body::-webkit-scrollbar-thumb {
         display:flex;
         flex-direction: column-reverse;
         height: 1400px;
-        width: 300px;
-        align-items:baseline;
+        width: 400px;
+        align-items:center;
         justify-content: center;
         text-align: center;
     }
 
     .landingText  h1  p{
-        font-size: 9vw;
+        font-size: 8vw;
         margin: 0 !important;
     }
 
@@ -511,9 +500,6 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
 
-    .landingText .btn {
-        margin: 0 auto;
-    }
 
     .landingText  .btn a {
         font-size: 3vw;
@@ -523,7 +509,7 @@ body::-webkit-scrollbar-thumb {
 
     /* ABOUT */
 
-    .sobre,.historia {
+    .sobre, .historia {
         height: auto;
         padding: 0px;
         display: flex;
@@ -531,6 +517,8 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
         align-items: center;
         max-width: 50px fit-content;
+        grid-column-gap: 10px;
+        grid-template-columns: 1fr;
     }
 
     .aboutText {
@@ -550,8 +538,16 @@ body::-webkit-scrollbar-thumb {
     }
 
     .aboutList , .historia{
-        text-align: justify;
         width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px 0;
+        height: auto;
+
+    }
     }
 
 
@@ -570,7 +566,7 @@ body::-webkit-scrollbar-thumb {
         padding: 50px;
         justify-content: center;
         align-items: center;
-        text-align: center
+        text-align: center;
     }
 
     .infoCards .card {
@@ -604,4 +600,3 @@ body::-webkit-scrollbar-thumb {
         padding-bottom: 10px;
     }
 
-}
