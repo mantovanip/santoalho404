@@ -87,10 +87,10 @@ body {
      text-overflow: clip;
      word-wrap: normal;
      box-shadow: none;
-     border-top-left-radius: 2px;
-     border-top-right-radius: 2px;
-     border-bottom-left-radius: 2px;
-     border-bottom-right-radius: 2px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
  }
     
 
@@ -149,18 +149,11 @@ body {
     margin: 0 !important;
 }
 
-.landingText h3 {
-    margin: 6px !important;
-    font-size: 20px;
-    opacity: 0.3;
-    line-height: 30px;
-}
-
-.landingText .btn,
+ .btn,
 .cidade {
  	/* Font & Text */
  
-     font-size: 15px;
+     font-size: 17px;
      font-style: normal;
      font-variant: normal;
      font-weight: 500;
@@ -168,11 +161,9 @@ body {
      line-height: 26.25px;
      text-decoration: none solid rgb(0, 0, 0);
      text-align:center;
-     text-indent: 0px;
      text-transform: none;
-     vertical-align: middle;
-     white-space: normal;
      word-spacing: 0px;
+     align-items:center;
  
      /* Color & Background */
      background-attachment: scroll;
@@ -187,7 +178,6 @@ body {
      width: 560px;
      border: 2px solid rgb(0, 0, 0);
      border-top: 2px solid rgb(0, 0, 0);
-     position: relative;
      top: 0px;
      bottom: 0px;
      right: 0px;
@@ -221,10 +211,10 @@ body {
      text-overflow: clip;
      word-wrap: normal;
      box-shadow: none;
-     border-top-left-radius: 2px;
-     border-top-right-radius: 2px;
-     border-bottom-left-radius: 2px;
-     border-bottom-right-radius: 2px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
  }
 
 
@@ -351,7 +341,7 @@ li span {
 
 .infoCards .card {
     position: relative;
-    height: 450px;
+    height: 440px;
     width: 359px;
     background: #fff;
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09)
@@ -369,6 +359,7 @@ li span {
     position: absolute;
     top: -50px;
     right: -50px;
+    
 }
 
 .infoCards .three .cardthreeImg {
@@ -381,16 +372,19 @@ li span {
 
 .cardbgone {
     height: 150px;
-    background-image:url(/img/filemignon.jfif)
+    background-image:url(/img/filemignon.jfif);
+    background-size: cover;
 }
 
 .cardbgtwo {
     height: 150px;
     background-image: url(/img/alcatra.jpeg);
+    background-size:cover;
 }
 .cardbgthree {
     height: 150px;
-    background-image: url(/img/costela.jfif);
+    background-image: url(/img/mtqueijo.jfif);
+    background-size:cover;
     
 }
 
@@ -419,7 +413,7 @@ li span {
 /* Banner */
 
 .banner {
-    height: 150px;
+    height: 125px;
     background-color: #ED7F17;
     display: flex;
     flex-direction: row;
@@ -444,16 +438,16 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #ED7F17;
+    background: rgb(255, 255, 255);
     /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255);
+    background-color:#ED7F17;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
-    border: 3px solid #ED7F17;
+    border: 3px solid  rgb(255, 255, 255);
     /* creates padding around scroll thumb */
 }
 
