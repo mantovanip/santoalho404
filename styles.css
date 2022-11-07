@@ -10,14 +10,17 @@ body {
 * {
     text-decoration: none !important;
 }
-
-.logo {
-    display: flex;
+.imgcidade{
+    max-height: 10vw;
     padding: 0 10vw 0 10vw;
-    height: 18vh;
-    align-content: left;   
 }
-.whats{
+.logo {
+   
+    padding: 0 10vw 0 10vw;
+    height: 10vh;
+    }
+
+.whats {
     max-width: 50px;
 }
 
@@ -66,7 +69,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
+    padding: 15vw 10vw 0 10vw;
     height: 100vh;
 }
 
@@ -92,6 +95,7 @@ body {
     border-radius: 45px;
     text-align: center;
 }
+
 .criaempresa {
     color: #fff;
     margin-top: 30px;
@@ -99,9 +103,9 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 45px;
     font-size: 12px;
-    border:1px solid #000;
+    border: 1px solid #000;
     word-spacing: 0px;
-    position:block;
+    position: block;
     text-align: center;
 }
 
@@ -114,6 +118,7 @@ body {
 .landingImage img {
     width: 28vw;
 }
+
 .link-alloy {
     margin-top: 20px;
     padding: 3px 10px 2px;
@@ -126,19 +131,19 @@ body {
     text-decoration: none;
 }
 
-    .div-block-715 {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        border-top: 1px solid rgba(0,0,0,0.1);
-        font-size: 13px;
-        text-align: center;
-    }
+.div-block-715 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    text-align: center;
+}
 
 /* ABOUT CSS */
 
 .sobre {
     height: 600px;
-    padding: 50px;
+    padding: 9vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -296,30 +301,43 @@ li span {
 }
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #ED7F17;        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #ED7F17;  /* creates padding around scroll thumb */
-  }
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #ED7F17;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #ED7F17;
+    /* creates padding around scroll thumb */
+}
 
 /* FOOTER CSS */
 
 .footer {
-    height: 100px;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 20px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
+
+
 .footerlinks a {
+
     margin: 20px;
     font-size: 16px;
     font-weight: 600;
