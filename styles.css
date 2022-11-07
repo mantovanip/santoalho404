@@ -12,84 +12,84 @@ body {
 }
 
 .logo {
-   
+
     padding: 0 10vw 0 10vw;
     height: 10vh;
-    }
+}
 
-.whats{
- 	/* Font & Text */
-     font-size: 15px;
-     font-style: normal;
-     font-variant: normal;
-     font-weight: 500;
-     letter-spacing: normal;
-     line-height: 26.25px;
-     text-decoration: none solid rgb(0, 0, 0);
-     text-align:center;
-     text-indent: 0px;
-     text-transform: none;
-     vertical-align: middle;
-     white-space: normal;
-     word-spacing: 0px;
- 
-     /* Color & Background */
-     background-attachment: scroll;
-     background-color: rgb(255, 255, 255);
-     background-image: none;
-     background-position: 0% 0%;
-     background-repeat: repeat;
-     color: rgb(0, 0, 0);
- 
-     /* Box */
-     height: 88.25px;
-     width: 260px;
-     border: 2px solid rgb(0, 0, 0);
-     border-top: 2px solid rgb(0, 0, 0);
-     position: relative;
-     top: 0px;
-     bottom: 0px;
-     right: 0px;
-     left: 0px;
-     float: none;
-     display: flex;
-     clear: none;
-     z-index: auto;
- 
-     /* List */
-     list-style-image: none;
-     list-style-type: disc;
-     list-style-position: outside;
- 
-     /* Table */
-     border-collapse: separate;
-     border-spacing: 0px 0px;
-     caption-side: top;
-     empty-cells: show;
-     table-layout: auto;
- 
-     /* Miscellaneous */
-     overflow: visible;
-     cursor: pointer;
-     visibility: visible;
- 
-     /* Effects */
-     transform: none;
-     transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-     outline: 1px;
-     outline-offset: 0px;
-     box-sizing: border-box;
-     resize: none;
-     text-shadow: none;
-     text-overflow: clip;
-     word-wrap: normal;
-     box-shadow: none;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
-     border-bottom-left-radius: 10px;
-     border-bottom-right-radius: 10px;
- }
-    
+.whats {
+    /* Font & Text */
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 26.25px;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: normal;
+    word-spacing: 0px;
+
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
+
+    /* Box */
+    height: 88.25px;
+    width: 260px;
+    border: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    float: none;
+    display: flex;
+    clear: none;
+    z-index: auto;
+
+    /* List */
+    list-style-image: none;
+    list-style-type: disc;
+    list-style-position: outside;
+
+    /* Table */
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    caption-side: top;
+    empty-cells: show;
+    table-layout: auto;
+
+    /* Miscellaneous */
+    overflow: visible;
+    cursor: pointer;
+    visibility: visible;
+
+    /* Effects */
+    transform: none;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    outline: 1px;
+    outline-offset: 0px;
+    box-sizing: border-box;
+    resize: none;
+    text-shadow: none;
+    text-overflow: clip;
+    word-wrap: normal;
+    box-shadow: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 
 
 .nav {
@@ -129,9 +129,11 @@ body {
     font-weight: bold;
     margin-left: 25px;
 }
-#propietarios{
-    width:300px;
+
+#propietarios {
+    width: 300px;
 }
+
 /* LANDING CSS */
 
 .landing {
@@ -148,67 +150,68 @@ body {
     margin: 0 !important;
 }
 
- .btn,
+.btn,
 .cidade {
- 	/* Font & Text */
- 
-     font-size: 17px;
-     font-style: normal;
-     font-variant: normal;
-     font-weight: 500;
-     letter-spacing: normal;
-     line-height: 26.25px;
-     text-decoration: none solid rgb(0, 0, 0);
-     text-align:center;
-     text-transform: none;
-     word-spacing: 0px;
-     align-items:center;
- 
-     /* Color & Background */
-     background-attachment: scroll;
-     background-color: rgb(255, 255, 255);
-     background-image: none;
-     background-position: 0% 0%;
-     background-repeat: repeat;
-     color: rgb(0, 0, 0);
- 
-     /* Box */
-     height: 88.25px;
-     width: 260px;
-     border: 2px solid rgb(0, 0, 0);
-     border-top: 2px solid rgb(0, 0, 0);
-     float: none;
-     display: flex;
-     clear: none;
-     z-index: auto;
- 
- 
- 
-     /* Table */
-     border-spacing: 0px 0px;
-     caption-side: top;
-     empty-cells: show;
-     table-layout: auto;
- 
-     /* Miscellaneous */
-     overflow: visible;
-     cursor: pointer;
-     visibility: visible;
- 
-     /* Effects */
-    
-     outline-offset: 0px;
-     box-sizing: border-box;
-     resize: none;
-     text-shadow: none;
-     text-overflow: clip;
-     word-wrap: normal;
-     box-shadow: none;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
-     border-bottom-left-radius: 10px;
-     border-bottom-right-radius: 10px;
- }
+    /* Font & Text */
+
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 26.25px;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    text-transform: none;
+    word-spacing: 0px;
+    align-items: center;
+
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
+
+    /* Box */
+    height: 88.25px;
+    width: 260px;
+    border: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    float: none;
+    display: flex;
+    clear: none;
+    z-index: auto;
+
+
+
+    /* Table */
+    border-spacing: 0px 0px;
+    caption-side: top;
+    empty-cells: show;
+    table-layout: auto;
+
+    /* Miscellaneous */
+    overflow: visible;
+    cursor: pointer;
+    visibility: visible;
+
+    /* Effects */
+
+    outline-offset: 0px;
+    box-sizing: border-box;
+    resize: none;
+    text-shadow: none;
+    text-overflow: clip;
+    word-wrap: normal;
+    box-shadow: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .landingText .btn a {
     font-size: 1.2vw;
     color: #fff;
@@ -271,7 +274,7 @@ body {
 
 ol {
     list-style: none;
- 
+
 }
 
 ol li {
@@ -283,7 +286,7 @@ ol li {
 li p {
     font-size: 1.1rem;
     color: #000;
-    padding:0 30px 0 30px;
+    padding: 0 30px 0 30px;
     line-height: 25px;
     opacity: 0.6;
 }
@@ -333,7 +336,7 @@ li span {
     position: absolute;
     top: -50px;
     right: -50px;
-    
+
 }
 
 .infoCards .three .cardthreeImg {
@@ -346,20 +349,21 @@ li span {
 
 .cardbgone {
     height: 150px;
-    background-image:url(/img/filemignon.jpg);
+    background-image: url(/img/filemignon.jpg);
     background-size: cover;
 }
 
 .cardbgtwo {
     height: 150px;
     background-image: url(/img/alcatra.jpeg);
-    background-size:cover;
+    background-size: cover;
 }
+
 .cardbgthree {
     height: 150px;
     background-image: url(/img/mtqueijo.jpg);
-    background-size:cover;
-    
+    background-size: cover;
+
 }
 
 .cardContent {
@@ -414,11 +418,11 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color:#ED7F17;
+    background-color: #ED7F17;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
-    border: 3px solid  rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
     /* creates padding around scroll thumb */
 }
 
@@ -458,22 +462,23 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 600px) {
     .logo {
-        display:flexbox;
+        display: flexbox;
         flex-direction: row;
-        justify-content:left;
-        height: 80px;
-        width:auto;
-        }
+        justify-content: left;
+        height: 50px;
+        width: auto;
+    }
+
     .nav {
         flex-direction: column;
         justify-content: space-around;
-        padding: 20px;
+        padding: 10px;
         height: auto;
         overflow-y: hidden;
     }
 
 
-    #propietarios{
+    #propietarios {
         background-size: contain;
         background-color: transparent;
     }
@@ -481,21 +486,21 @@ body::-webkit-scrollbar-thumb {
     /* LANDING PAGE */
 
     .landing {
-        display:flex;
+        display: flex;
         flex-direction: column-reverse;
-        height: 1400px;
+        height: 999px;
         width: 300px;
-        align-items:baseline;
+        align-items: baseline;
         justify-content: center;
         text-align: center;
     }
 
-    .landingText  h1  p{
-        font-size: 9vw;
+    .landingText h1 p {
+        font-size: 7vw;
         margin: 0 !important;
     }
 
-    .landingText h3 p{
+    .landingText h2 p {
         font-size: 16px;
     }
 
@@ -503,15 +508,14 @@ body::-webkit-scrollbar-thumb {
         margin: 0 auto;
     }
 
-    .landingText  .btn a {
-        font-size: 3vw;
+    .landingText .btn a {
+        font-size: 1vw;
     }
-
-
 
     /* ABOUT */
 
-    .sobre,.historia {
+    .sobre,
+    .historia {
         height: auto;
         padding: 0px;
         display: flex;
@@ -539,9 +543,8 @@ body::-webkit-scrollbar-thumb {
         left: 20px;
     }
 
-    .aboutList  .historia{
+    .aboutList .historia {
         position: sticky;
-        top: 70px;
         margin-left: -60px;
         margin-top: 80px;
         float: left;
@@ -554,7 +557,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .infoHeader {
-        text-align: center;
+        text-align:center;
         margin: 40px 0;
     }
 
@@ -592,7 +595,7 @@ body::-webkit-scrollbar-thumb {
         width: 8vw;
     }
 
-   
+
 
     .footer {
         padding-bottom: 10px;
