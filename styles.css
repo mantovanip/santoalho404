@@ -502,6 +502,7 @@ body::-webkit-scrollbar-thumb {
     .landing {
         flex-direction: column-reverse;
         height: 1400px;
+        width: 10px;
         align-items: center;
         justify-content: center;
         text-align: center
