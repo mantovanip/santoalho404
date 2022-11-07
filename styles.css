@@ -213,12 +213,14 @@ body {
 }
 
 .landingText .btn a {
-    font-size: 1.2vw;
+    text-align: center;
+    font-size: 1.5vw;
     color: #fff;
 }
 
 .landingImage img {
-    width: 28vw;
+    width: 25vw;
+    text-align: center;
 }
 
 .link-alloy {
@@ -260,15 +262,19 @@ body {
 
 .aboutText h1 {
     position: relative;
+    text-align: center;
     left: 110px;
 }
 
 .aboutText img {
+    align-items: center;
     position: absolute;
     top: 70px;
 }
 
 .aboutList {
+    align-content: center;
+    align-items: center;
     width: 50%;
 }
 
