@@ -20,9 +20,80 @@ body {
     height: 10vh;
     }
 
-.whats {
-    max-width: 50px;
-}
+.whats{
+ 	/* Font & Text */
+     font-size: 15px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 500;
+     letter-spacing: normal;
+     line-height: 26.25px;
+     text-decoration: none solid rgb(0, 0, 0);
+     text-align:center;
+     text-indent: 0px;
+     text-transform: none;
+     vertical-align: middle;
+     white-space: normal;
+     word-spacing: 0px;
+ 
+     /* Color & Background */
+     background-attachment: scroll;
+     background-color: rgb(255, 255, 255);
+     background-image: none;
+     background-position: 0% 0%;
+     background-repeat: repeat;
+     color: rgb(0, 0, 0);
+ 
+     /* Box */
+     height: 88.25px;
+     width: 560px;
+     border: 2px solid rgb(0, 0, 0);
+     border-top: 2px solid rgb(0, 0, 0);
+     position: relative;
+     top: 0px;
+     bottom: 0px;
+     right: 0px;
+     left: 0px;
+     float: none;
+     display: flex;
+     clear: none;
+     z-index: auto;
+ 
+     /* List */
+     list-style-image: none;
+     list-style-type: disc;
+     list-style-position: outside;
+ 
+     /* Table */
+     border-collapse: separate;
+     border-spacing: 0px 0px;
+     caption-side: top;
+     empty-cells: show;
+     table-layout: auto;
+ 
+     /* Miscellaneous */
+     overflow: visible;
+     cursor: pointer;
+     visibility: visible;
+ 
+     /* Effects */
+     transform: none;
+     transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+     outline: 1px;
+     outline-offset: 0px;
+     box-sizing: border-box;
+     resize: none;
+     text-shadow: none;
+     text-overflow: clip;
+     word-wrap: normal;
+     box-shadow: none;
+     border-top-left-radius: 2px;
+     border-top-right-radius: 2px;
+     border-bottom-left-radius: 2px;
+     border-bottom-right-radius: 2px;
+ }
+    
+
 
 .nav {
     position: fixed;
@@ -87,14 +158,75 @@ body {
 
 .landingText .btn,
 .cidade {
-    color: #fff;
-    width: 120px;
-    margin-top: 30px;
-    padding: 14px 20px 14px 20px;
-    background-color: #ED7F17;
-    border-radius: 45px;
-    text-align: center;
-}
+ 	/* Font & Text */
+ 
+     font-size: 15px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 500;
+     letter-spacing: normal;
+     line-height: 26.25px;
+     text-decoration: none solid rgb(0, 0, 0);
+     text-align:center;
+     text-indent: 0px;
+     text-transform: none;
+     vertical-align: middle;
+     white-space: normal;
+     word-spacing: 0px;
+ 
+     /* Color & Background */
+     background-attachment: scroll;
+     background-color: rgb(255, 255, 255);
+     background-image: none;
+     background-position: 0% 0%;
+     background-repeat: repeat;
+     color: rgb(0, 0, 0);
+ 
+     /* Box */
+     height: 88.25px;
+     width: 560px;
+     border: 2px solid rgb(0, 0, 0);
+     border-top: 2px solid rgb(0, 0, 0);
+     position: relative;
+     top: 0px;
+     bottom: 0px;
+     right: 0px;
+     left: 0px;
+     float: none;
+     display: flex;
+     clear: none;
+     z-index: auto;
+ 
+ 
+ 
+     /* Table */
+     border-collapse: separate;
+     border-spacing: 0px 0px;
+     caption-side: top;
+     empty-cells: show;
+     table-layout: auto;
+ 
+     /* Miscellaneous */
+     overflow: visible;
+     cursor: pointer;
+     visibility: visible;
+ 
+     /* Effects */
+     transform: none;
+     transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+     outline-offset: 0px;
+     box-sizing: border-box;
+     resize: none;
+     text-shadow: none;
+     text-overflow: clip;
+     word-wrap: normal;
+     box-shadow: none;
+     border-top-left-radius: 2px;
+     border-top-right-radius: 2px;
+     border-bottom-left-radius: 2px;
+     border-bottom-right-radius: 2px;
+ }
+
 
 .criaempresa {
     color: #fff;
@@ -139,7 +271,7 @@ body {
     text-align: center;
 }
 
-/* ABOUT CSS */
+/* SOBRE CSS */
 
 .sobre {
     height: 600px;
@@ -162,9 +294,9 @@ body {
 }
 
 .aboutText img {
-    width: 10vw;
+    width: 100vw;
     position: absolute;
-    top: 50px;
+    top: 70px;
 }
 
 .aboutList {
@@ -204,8 +336,9 @@ li span {
 }
 
 .infoHeader {
+    font-family: 'roboto';
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4px;
 }
 
 .infoCards {
@@ -218,8 +351,8 @@ li span {
 
 .infoCards .card {
     position: relative;
-    height: 400px;
-    width: 350px;
+    height: 450px;
+    width: 359px;
     background: #fff;
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09)
 }
@@ -239,20 +372,26 @@ li span {
 }
 
 .infoCards .three .cardthreeImg {
-    width: 150px;
+    width: 150%;
     position: absolute;
     top: -50px;
     right: -50px;
+    background-size: contain;
 }
 
 .cardbgone {
     height: 150px;
-    background-color: #ED7F17;
+    background-image:url(/img/filemignon.jfif)
 }
 
 .cardbgtwo {
     height: 150px;
-    background-color: #ED7F17;
+    background-image: url(/img/alcatra.jpeg);
+}
+.cardbgthree {
+    height: 150px;
+    background-image: url(/img/costela.jfif);
+    
 }
 
 .cardContent {
@@ -280,25 +419,24 @@ li span {
 /* Banner */
 
 .banner {
-    height: 200px;
+    height: 150px;
     background-color: #ED7F17;
     display: flex;
     flex-direction: row;
     padding: 50px;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 .bannerText h1 {
-    font-size: 3vw;
+    text-align: center;
+    font-size: 2vw;
     color: #000;
     font-weight: 600;
 }
 
-.bannerText img {
-    width: 10vw;
-    margin-right: 20px;
-}
+
 
 body::-webkit-scrollbar {
     width: 12px;
