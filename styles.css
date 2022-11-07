@@ -347,7 +347,7 @@ li span {
 
 .cardbgone {
     height: 150px;
-    background-image:url(/img/filemignon.jfif);
+    background-image:url(/img/filemignon.jpg);
     background-size: cover;
 }
 
@@ -358,7 +358,7 @@ li span {
 }
 .cardbgthree {
     height: 150px;
-    background-image: url(/img/mtqueijo.jfif);
+    background-image: url(/img/mtqueijo.jpg);
     background-size:cover;
     
 }
