@@ -10,10 +10,7 @@ body {
 * {
     text-decoration: none !important;
 }
-.imgcidade{
-    max-height: 10vw;
-    padding: 0 10vw 0 10vw;
-}
+
 .logo {
    
     padding: 0 10vw 0 10vw;
@@ -216,22 +213,6 @@ body {
      border-bottom-left-radius: 10px;
      border-bottom-right-radius: 10px;
  }
-
-
-.criaempresa {
-    color: #fff;
-    margin-top: 30px;
-    padding: 14px 20px 14px 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 45px;
-    font-size: 12px;
-    border: 1px solid #000;
-    word-spacing: 0px;
-    position: block;
-    text-align: center;
-}
-
-
 .landingText .btn a {
     font-size: 1.2vw;
     color: #fff;
@@ -489,12 +470,12 @@ body::-webkit-scrollbar-thumb {
     .logo {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:left;
         height: 10px;
         width: 5px;
         align-content: center;
-    }
-
+      max-width: 100%;
+        }
     .nav {
         flex-direction: column;
         justify-content: space-around;
@@ -520,18 +501,18 @@ body::-webkit-scrollbar-thumb {
 
     .landing {
         flex-direction: column-reverse;
-        height: 750px;
+        height: 1400px;
         align-items: center;
         justify-content: center;
         text-align: center
     }
 
-    .landingText h1 {
+    .landingText  h1  p{
         font-size: 9vw;
         margin: 0 !important;
     }
 
-    .landingText h3 {
+    .landingText h3 p{
         font-size: 16px;
     }
 
@@ -539,25 +520,22 @@ body::-webkit-scrollbar-thumb {
         margin: 0 auto;
     }
 
-    .landingText .btn a {
+    .landingText  .btn a {
         font-size: 3vw;
     }
 
-    .landingImage img {
-        width: 52vw;
-        margin-bottom: 20px;
-    }
 
 
     /* ABOUT */
 
-    .about {
+    .sobre,.historia {
         height: auto;
         padding: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        max-width: 50px fit-content;
     }
 
     .aboutText {
@@ -573,21 +551,14 @@ body::-webkit-scrollbar-thumb {
     .aboutText img {
         width: 16vw;
         top: 10px;
-        left: -30px;
+        left: -20px;
     }
 
-    .aboutList {
-
-        width: 50%;
+    .aboutList , .historia{
+        text-align: justify;
+        width: 500px;
     }
 
-    ol li {
-        font-size: 26px;
-    }
-
-    li p {
-        font-size: 14px;
-    }
 
     .infoSection {
         height: auto;
@@ -612,9 +583,9 @@ body::-webkit-scrollbar-thumb {
     }
 
     .banner {
-        height: auto;
+        height: 50%;
         flex-direction: column-reverse;
-        padding: 50px;
+        padding: 20px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -629,15 +600,13 @@ body::-webkit-scrollbar-thumb {
     }
 
     .bannerText img {
-        width: 20vw;
+        width: 8vw;
     }
 
-    .bannerImg img {
-        width: 26vw;
-    }
+   
 
     .footer {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
 }
