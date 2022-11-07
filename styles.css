@@ -485,14 +485,14 @@ body::-webkit-scrollbar-thumb {
         display:flex;
         flex-direction: column-reverse;
         height: 1400px;
-        width: 400px;
-        align-items:center;
+        width: 300px;
+        align-items:baseline;
         justify-content: center;
         text-align: center;
     }
 
     .landingText  h1  p{
-        font-size: 8vw;
+        font-size: 9vw;
         margin: 0 !important;
     }
 
@@ -500,6 +500,9 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
 
+    .landingText .btn {
+        margin: 0 auto;
+    }
 
     .landingText  .btn a {
         font-size: 3vw;
@@ -509,7 +512,7 @@ body::-webkit-scrollbar-thumb {
 
     /* ABOUT */
 
-    .sobre, .historia {
+    .sobre,.historia {
         height: auto;
         padding: 0px;
         display: flex;
@@ -538,16 +541,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .aboutList , .historia{
+        text-align: justify;
         width: 500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 40px 0;
-        height: auto;
-
-    }
     }
 
 
@@ -566,7 +561,7 @@ body::-webkit-scrollbar-thumb {
         padding: 50px;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: center
     }
 
     .infoCards .card {
@@ -600,3 +595,4 @@ body::-webkit-scrollbar-thumb {
         padding-bottom: 10px;
     }
 
+}
