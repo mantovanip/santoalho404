@@ -16,79 +16,12 @@ body {
     padding: 0 10vw 0 10vw;
     height: 10vh;
 }
-
-.whats {
-    /* Font & Text */
-    font-size: 15px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    letter-spacing: normal;
-    line-height: 26.25px;
-    text-decoration: none solid rgb(0, 0, 0);
-    text-align: center;
-    text-indent: 0px;
-    text-transform: none;
-    vertical-align: middle;
-    white-space: normal;
-    word-spacing: 0px;
-
-    /* Color & Background */
-    background-attachment: scroll;
-    background-color: rgb(255, 255, 255);
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    color: rgb(0, 0, 0);
-
-    /* Box */
-    height: 88.25px;
-    width: 260px;
-    border: 2px solid rgb(0, 0, 0);
-    border-top: 2px solid rgb(0, 0, 0);
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    float: none;
-    display: flex;
-    clear: none;
-    z-index: auto;
-
-    /* List */
-    list-style-image: none;
-    list-style-type: disc;
-    list-style-position: outside;
-
-    /* Table */
-    border-collapse: separate;
-    border-spacing: 0px 0px;
-    caption-side: top;
-    empty-cells: show;
-    table-layout: auto;
-
-    /* Miscellaneous */
-    overflow: visible;
-    cursor: pointer;
-    visibility: visible;
-
-    /* Effects */
-    transform: none;
-    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.25s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-    outline: 1px;
-    outline-offset: 0px;
-    box-sizing: border-box;
-    resize: none;
-    text-shadow: none;
-    text-overflow: clip;
-    word-wrap: normal;
-    box-shadow: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#logo{
+    
+    max-width: 400px;
+    align-content: center;
 }
+
 
 
 
@@ -131,12 +64,13 @@ body {
 }
 
 #propietarios {
-    position: flex;
+    position:flex;
+    background-repeat: no-repeat;
     height: 674px;
     width: 548px;
     left: 100px;
+
     border-radius: 50px;
-    background-repeat: none;
     background: url(/img/propietarios.jpg);
     filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
 }
@@ -149,74 +83,30 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15vw 10vw 0 10vw;
-    height: 100vh;
+    height: 50vh;
 }
-
+@font-face {
+    font-family: 'Nexa';
+    src: url('NexaRustSlab.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 .landingText h1 {
+    font-family: 'Nexa';
+    font-size: 4vw;
+    margin: 0 !important;
+    text-align: center;
+}
+#nossaHistoria {
+    font-family: 'Nexa';
     font-size: 5vw;
     margin: 0 !important;
-}
-
-.btn,
-.cidade {
-    /* Font & Text */
-
-    font-size: 17px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    letter-spacing: normal;
-    line-height: 26.25px;
-    text-decoration: none solid rgb(0, 0, 0);
     text-align: center;
-    text-transform: none;
-    word-spacing: 0px;
-    align-items: center;
+}
+#btn{
+    max-width: 300px;
 
-    /* Color & Background */
-    background-attachment: scroll;
-    background-color: rgb(255, 255, 255);
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    color: rgb(0, 0, 0);
-
-    /* Box */
-    height: 88.25px;
-    width: 260px;
-    border: 2px solid rgb(0, 0, 0);
-    border-top: 2px solid rgb(0, 0, 0);
-    float: none;
-    display: flex;
-    clear: none;
-    z-index: auto;
-
-
-
-    /* Table */
-    border-spacing: 0px 0px;
-    caption-side: top;
-    empty-cells: show;
-    table-layout: auto;
-
-    /* Miscellaneous */
-    overflow: visible;
-    cursor: pointer;
-    visibility: visible;
-
-    /* Effects */
-
-    outline-offset: 0px;
-    box-sizing: border-box;
-    resize: none;
-    text-shadow: none;
-    text-overflow: clip;
-    word-wrap: normal;
-    box-shadow: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .landingText .btn a {
@@ -226,6 +116,9 @@ body {
 }
 
 .landingImage img {
+    box-sizing: border-box;
+    border: 5px solid #ED7F17;
+    border-radius: 50px;
     width: 25vw;
     text-align: center;
     filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.41));
@@ -255,6 +148,7 @@ body {
 /* SOBRE CSS */
 
 .sobre {
+    background-color:  rgba(0, 0, 0, 0.2);
     height: 500px;
     padding: 9vw;
     display: flex;
@@ -315,7 +209,7 @@ li span {
     width: 359px;
     background: #fff;
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .infoCards .one .cardoneImg {
@@ -323,7 +217,7 @@ border-radius: 50px;
     position: absolute;
     top: -50px;
     right: -50px;
-    
+
 }
 
 .infoCards .two .cardtwoImg {
@@ -341,9 +235,9 @@ border-radius: 50px;
     right: -50px;
     background-size: contain;
 }
-#tela{
-    background-color: #000;
-}
+
+
+
 .cardbgone {
     height: 150px;
     background-image: url(/img/filemignon.jpg);
@@ -464,17 +358,16 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 580px) {
     .logo {
-        display: flexbox;
+        display: flex;
         flex-direction: row;
         justify-content: left;
-        height: 50px;
         width: auto;
     }
 
     .nav {
         flex-direction: column;
         justify-content: space-around;
-        padding: 10px;
+        padding: 1px;
         height: auto;
         overflow-y: hidden;
     }
@@ -489,7 +382,6 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column-reverse;
         height: 999px;
         width: 300px;
-        align-items: baseline;
         justify-content: center;
         text-align: center;
     }
@@ -513,15 +405,7 @@ body::-webkit-scrollbar-thumb {
 
     /* ABOUT */
 
-    .sobre,
-    .historia {
-        height: 416px;
-        width: 905px;
-        left: 723px;
-        top: 1738px;
-        border-radius: 11px;
 
-    }
 
     .aboutText {
         padding: 0 50px;
