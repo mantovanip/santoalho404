@@ -131,7 +131,14 @@ body {
 }
 
 #propietarios {
-    width: 300px;
+    position: flex;
+    height: 674px;
+    width: 548px;
+    left: 100px;
+    border-radius: 50px;
+    background-repeat: none;
+    background: url(/img/propietarios.jpg);
+    filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* LANDING CSS */
@@ -221,6 +228,8 @@ body {
 .landingImage img {
     width: 25vw;
     text-align: center;
+    filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.41));
+    border-radius: 50px;
 }
 
 .link-alloy {
@@ -252,30 +261,6 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.aboutText {
-    position: relative;
-    padding: 0 50px;
-    height: inherit;
-}
-
-.aboutText h1 {
-    position: relative;
-    text-align: center;
-    left: 110px;
-}
-
-.aboutText img {
-    align-items: center;
-    position: absolute;
-    top: 70px;
-}
-
-.aboutList {
-    align-content: center;
-    align-items: center;
-    width: 50%;
 }
 
 ol {
@@ -323,11 +308,14 @@ li span {
 }
 
 .infoCards .card {
+    box-sizing: border-box;
+
     position: relative;
     height: 440px;
     width: 359px;
     background: #fff;
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09)
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+border-radius: 50px;
 }
 
 .infoCards .one .cardoneImg {
@@ -335,6 +323,7 @@ li span {
     position: absolute;
     top: -50px;
     right: -50px;
+    
 }
 
 .infoCards .two .cardtwoImg {
@@ -352,23 +341,30 @@ li span {
     right: -50px;
     background-size: contain;
 }
-
+#tela{
+    background-color: #000;
+}
 .cardbgone {
     height: 150px;
     background-image: url(/img/filemignon.jpg);
     background-size: cover;
+    border-radius: 50px;
+    box-sizing: border-box;
+
 }
 
 .cardbgtwo {
     height: 150px;
     background-image: url(/img/alcatra.jpeg);
     background-size: cover;
+    border-radius: 50px;
 }
 
 .cardbgthree {
     height: 150px;
     background-image: url(/img/mtqueijo.jpg);
     background-size: cover;
+    border-radius: 50px;
 
 }
 
@@ -484,10 +480,7 @@ body::-webkit-scrollbar-thumb {
     }
 
 
-    #propietarios {
-        background-size: contain;
-        background-color: transparent;
-    }
+
 
     /* LANDING PAGE */
 
@@ -522,15 +515,12 @@ body::-webkit-scrollbar-thumb {
 
     .sobre,
     .historia {
-        height: auto;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 50px fit-content;
-        grid-column-gap: 10px;
-        grid-template-columns: 1fr;
+        height: 416px;
+        width: 905px;
+        left: 723px;
+        top: 1738px;
+        border-radius: 11px;
+
     }
 
     .aboutText {
