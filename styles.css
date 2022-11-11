@@ -220,60 +220,14 @@ li span {
     position: relative;
     height: 440px;
     width: 359px;
-    background: #fff;
+    background-image: url(/img/filemignon.jpg);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
     border-radius: 50px;
-}
-
-.infoCards .one .cardoneImg {
-    width: 180px;
-    position: absolute;
-    top: -50px;
-    right: -50px;
-
-}
-
-.infoCards .two .cardtwoImg {
-    width: 158px;
-    position: absolute;
-    top: -50px;
-    right: -50px;
-
-}
-
-.infoCards .three .cardthreeImg {
-    width: 150%;
-    position: absolute;
-    top: -50px;
-    right: -50px;
-    background-size: contain;
-}
-
-
-
-.cardbgone {
-    height: 150px;
-    background-image: url(/img/filemignon.jpg);
     background-size: cover;
-    border-radius: 50px;
     box-sizing: border-box;
 
 }
 
-.cardbgtwo {
-    height: 150px;
-    background-image: url(/img/alcatra.jpeg);
-    background-size: cover;
-    border-radius: 50px;
-}
-
-.cardbgthree {
-    height: 150px;
-    background-image: url(/img/mtqueijo.jpg);
-    background-size: cover;
-    border-radius: 50px;
-
-}
 
 .cardContent {
     padding: 0 20px;
@@ -297,7 +251,7 @@ li span {
 /* Banner */
 
 .banner {
-    height: 95px;
+    height: 105px;
     background-color: #ED7F17;
     display: flex;
     flex-direction: row;
