@@ -104,8 +104,8 @@ body {
 }
 
 #band2 {
-    max: width 10px;
-    ;
+    max-width: 10px;
+    
     transform: translate(-3%, -230%);
     text-decoration: none;
 }
@@ -210,7 +210,7 @@ li p {
 .infoHeader {
     font-family: 'roboto';
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 44px;
 }
 
 .infoCards {
@@ -222,7 +222,6 @@ li p {
 }
 
 .infoCards .card {
-    box-sizing: border-box;
 
     position: relative;
     height: 440px;
@@ -407,19 +406,20 @@ body::-webkit-scrollbar-thumb {
     }
 
     .historia {
-
+        text-align: center;
         float: left;
-        margin: bottom 0;
+        margin: bottom 10;
     }
 
 
     .infoSection {
-        height: auto;
+        height: 10px;
+        position: inherit;
+        text-align: center;
     }
 
     .infoHeader {
         text-align: center;
-        margin: 40px 0;
     }
 
     .infoCards {
