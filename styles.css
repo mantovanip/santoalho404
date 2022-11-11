@@ -10,15 +10,15 @@ body {
 * {
     text-decoration: none !important;
 }
-#logo{
-    max-width: 400px;
 
+#logo {
+    max-width: 400px;
     top: 14%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(75%, -180%);
     text-decoration: none;
+    position: relative;
 
-    
 }
 
 .logo {
@@ -28,16 +28,13 @@ body {
 }
 
 
-
-
-
 .nav {
     position: fixed;
     z-index: 1000;
     top: 0;
     right: 0;
     left: 0;
-    height: 120px;
+    height: 160px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,25 +51,15 @@ body {
 .nav .links a {
     border-radius: 30px;
     margin-right: 25px;
-    font-size: 22px;
+    font-size: 4vh;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: #000000E5;
 }
 
-.nav .links .mainlink {
-    color: rgb(255, 255, 255);
-    border-radius: 30px;
 
-}
-
-.nav h4 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 25px;
-}
 
 #propietarios {
-    position:flex;
+    position: flex;
     height: 574px;
     width: 542px;
     left: 100px;
@@ -91,28 +78,50 @@ body {
     padding: 15vw 10vw 0 10vw;
     max-height: max-content;
 }
+
 @font-face {
     font-family: 'Nexa';
-    src: url('NexaRustSlab.otf')
-    format('opentype');
+    src: url('NexaRustSlab.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
 .landingText h1 {
     font-family: 'Nexa';
     font-size: 4vw;
     margin: 0 !important;
     text-align: center;
 }
+
 #nossaHistoria {
     font-family: 'Nexa';
-    font-size: 5vw;
+    font-size: 4.8vw;
     margin: 0 !important;
     text-align: center;
 }
-#btn{
-    max-width: 300px;
 
+#btn {
+    max-width: 400px;
+    top: 14%;
+    left: 50%;
+    transform: translate(-70%, -20%);
+    text-decoration: none;
+
+}
+
+#band {
+    max-width: 300px;
+    top: 14%;
+    left: 50%;
+    transform: translate(-10%, -200%);
+    text-decoration: none;
+}
+
+#band2 {
+    max-width: 400px;
+
+    transform: translate(-1%, -250%);
+    text-decoration: none;
 }
 
 .landingText .btn a {
@@ -153,7 +162,7 @@ body {
 /* SOBRE CSS */
 
 .sobre {
-    background-color:  rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 500px;
     padding: 9vw;
     display: flex;
@@ -427,7 +436,7 @@ body::-webkit-scrollbar-thumb {
         left: 20px;
     }
 
-    .aboutList  {
+    .aboutList {
         position: sticky;
         margin-left: -60px;
         margin-top: 80px;
@@ -435,7 +444,8 @@ body::-webkit-scrollbar-thumb {
         margin: bottom 0;
         font-size: 160px;
     }
-    .historia{
+
+    .historia {
         position: sticky;
         margin-left: -60px;
         margin-top: 80px;
