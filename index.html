@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Santo Alho</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -19,9 +18,9 @@
             <a href="#"><img class="logo" src="img/santoalhologoredonda.png"></a>
         </div>
         <div class="links">
-            <a href="#" class="">Home</a>
-            <a href="">Nossa História</a>
-            <a href="https://beacons.ai/santoalho">Contato</a>
+            <a href="#home" class="">Home</a>
+            <a href="#sobre">Nossa História</a>
+            <a href="#destaques">Destaques</a>
         </div>
     </div>
 
@@ -29,16 +28,17 @@
 
     <div class="landing">
         <div>
-            <img id="logo" src="/img/salogo.png" alt="santoalho">
+            <h1 id="logo">SANTO ALHO</h1>
         </div>
+        <div   id="sublog" >PAES DE ALHO RECHEADOS</div>
 
-        <div id="btn" data-aos="fade-up" data-aos-duration="1000">
-            <img id="btn" src="/img/button.png" alt="">
-            <img id="btn" src="/img/suportecri.png" alt="">
-            <img id="btn" src="/img/tubarao.png" alt="">
-            <img id="btn" src="/img/suportetub.png" alt="">
+        <div id="btn" data-aos="fade-right" data-aos-duration="1000">
+            <a href="https://santoalhocriciuma.com.br/santoalho/pedidos"><img id="btn" src="/img/button.png" alt="peça em Criciuma"></a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5548998199520"><img id="btn" src="/img/suportecri.png" alt="suporte criciuma"></a>
+            <a href="https://santoalhotubarao.com.br/santoalhotubarao/pedidos"><img id="btn" src="/img/tubarao.png" alt="peça em tubarao"></a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5548998564490"><img id="btn" src="/img/suportetub.png" alt="suporte tubarao"></a>
         </div>
-
+        <div    id="retangulolocal"></div>
         <div class="landingImage" data-aos="fade-down" data-aos-duration="1000">
             <img src="img/local.jpg">
         </div>
@@ -51,12 +51,13 @@
     </div>
     <!-- ABOUT SECTION -->
 
-    <div class="sobre">
-        
+    <div id="sobre" >
+
         <div data-aos="fade-up" data-aos-duration="1000">
-            
-            <div id="propietarios"><div   id="retanguloprop" ></div> 
-            </div>               
+            <div id="retanguloprop"></div>
+
+            <div id="propietarios">
+            </div>
 
         </div>
         <div data-aos="fade-left" data-aos-duration="1000">
@@ -81,8 +82,8 @@
     <!-- INFO SECTION -->
 
     <div class="infoSection">
-        <div class="infoHeader" data-aos="fade-up" data-aos-duration="1000">
-            <h1  id="nossaHistoria" > Os Gostosões</h1>
+        <div  data-aos="fade-up" data-aos-duration="1000">
+            <h1 id="nossaHistoria"> Os Gostosões</h1>
         </div>
         <div class="infoCards">
             <div class="card one" data-aos="fade-up" data-aos-duration="1000">
@@ -139,7 +140,6 @@
             </a>
         </div>
     </div>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
