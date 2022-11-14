@@ -13,22 +13,21 @@ body {
 
 
 .logo {
-
+    transform: translate(-30%, 10%);
     padding: 0 10vw 0 10vw;
-    height: 10vh;
+    height: 12vh;
+    
 }
 
 
 .nav {
-    z-index: 1000;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 120px;
+  
+    height: 110px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    vertical-align: middle;
     padding: 0 25px 0 25px;
     background-image: url(/img/Header.png);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
@@ -74,7 +73,7 @@ body {
 #logo {
     font-size: 10vh;
     font-family: 'nexa';
-    transform: translate(145%, -340%);
+    transform: translate(145%, -355%);
     text-decoration: none;
     text-align: center;
 }
@@ -82,7 +81,7 @@ body {
 #sublog {
     font-size: 18px;
     font-family: 'nexa';
-    transform: translate(60%, -650%);
+    transform: translate(140%, -660%);
     color: #ED7F17;
     text-align: center;
 
@@ -92,6 +91,7 @@ body {
     max-width: 230px;
     left: 50%;
     transform: translate(-50%, -20%);
+    line-height: 25px;
     text-decoration: none;
 
 }
@@ -111,7 +111,7 @@ body {
 }
 
 #retangulolocal {
-    transform: translate(580px, 12px);
+    transform: translate(580px, 18px);
     Width: 543px;
     Height: 667px;
     border-radius: 50px;
@@ -225,39 +225,61 @@ li p {
 /* INFO_SECTION CSS */
 
 .infoSection {
-    height: 700px;
+    padding: 80px;
+    height: 780px;
 }
 
 
 .infoCards {
+    
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 40px 0 40px 0;
 }
 
-.infoCards .card {
-
+.cardone {
+    
     position: relative;
-    height: 440px;
-    width: 359px;
-    background-image: url(/img/filemignon.jpg);
+    Width:356.8px;
+    Height:395.11px;
+    background-image: url(/img/fmignon4.png);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
     border-radius: 50px;
-    background-size: cover;
-    box-sizing: border-box;
 
 }
 
-.cardContent h2 {
-    font-weight: 600;
+.cardtwo {
+
+    position: relative;
+    Width:356.8px;
+    Height:395.11px;
+    background-image: url(/img/alcatra.png);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 50px;
+
+
 }
 
-.cardContent {
-    line-height: 30px;
+.cardthree {
+    position: relative;
+    Width:356.8px;
+    Height:395.11px;
+    background-image: url(/img/costela.png);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 50px;
+  
 
 }
 
+#destaques {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(237, 127, 23, 0.7) 0%, rgba(237, 127, 23, 0) 100%);
+     font-family: 'Nexa';
+    font-size: 5vw;
+    margin: 0 !important;
+    text-align: center;
+}
 
 /* Banner */
 
@@ -292,7 +314,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ED7F17;
+    background-color: #E85910;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
@@ -312,11 +334,13 @@ body::-webkit-scrollbar-thumb {
     -ms-flex-pack: justify;
     justify-content: space-between;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+
 
 }
 
 .footerlinks a {
-
+    text-decoration: none;
     margin: 20px;
     font-size: 16px;
     font-weight: 600;
@@ -326,6 +350,8 @@ body::-webkit-scrollbar-thumb {
 
 .footerlinks .mainlink {
     color: #ED7F17;
+    text-decoration: none;
+
 }
 
 
