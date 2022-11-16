@@ -85,9 +85,9 @@ body {
 
 
 #logo {
-    font-size: 9vh;
+    font-size: 10vh;
     font-family: 'nexa';
-    transform: translate(140%, -358%);
+    transform: translate(140%, -319%);
     text-decoration: none;
     text-align: center;
 }
@@ -95,7 +95,7 @@ body {
 #sublog {
     font-size: 2vh;
     font-family: 'nexa';
-    transform: translate(60%, -2700%);
+    transform: translate(66%, -2700%);
     color: #ED7F17;
     text-align: center;
     white-space: nowrap;
@@ -103,10 +103,10 @@ body {
 }
 
 .imgwhats {
-    line-height: 45px;
-    max-width: 50px;
+    transform: translateY(10px);
+    line-height: 55px;
+    max-width: 30px;
     max-height: 25px;
-    line-break: 10px;
 }
 
 #btn1 {
@@ -552,12 +552,13 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 926px) {
 
     .logo {
-    display: none;
-        
+        display: none;
+
     }
-.links{
-    display: none;
-}
+
+    .links {
+        display: none;
+    }
 
     .nav {
         flex-direction: column;
@@ -577,27 +578,34 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column-reverse;
         height: auto;
         width: 300px;
-        justify-content: center;
-        text-align: center;
-        transform: translate(45%,2%);
     }
-    #logo{
-        font-size: 55px;
-       transform: translate(-50%,-402%);}
+
+    #logo {
+        font-size: 60px;
+        transform: translate(12%, -470%);
     }
-    #sublog{
-        font-weight: bold;
+
+    #sublog {
+        font-weight: bolder;
         font-size: 15px;
-        transform: translate(-60%,-1800%);
+        transform: translate(12%, -2580%);
 
     }
-    #btn{
-        transform: translate(40%,50%);
+
+    #btn {
+        margin: 80px;
+        transform: translate(100%, 50%);
     }
 
-    .landingImage{
+    #band2 {
+        transform: translate(40%, -1500%);
+
+    }
+
+    .landingImage {
         display: none;
     }
+
     /* ABOUT */
 
 
