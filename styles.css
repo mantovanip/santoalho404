@@ -13,7 +13,7 @@ body {
 
 
 .logo {
-    transform: translate(-30%, 40%);
+    transform: translate(-30%, 30%);
     padding: 0 10vw 0 10vw;
     height: 12vh;
 
@@ -46,9 +46,17 @@ body {
     color: #000000E5;
     float: left;
 }
-.links:hover a{
-text-decoration: underline;
-color: #000;
+
+.links1:hover {
+    border-bottom: 2px solid rgb(2, 2, 2);
+}
+
+.links2:hover {
+    border-bottom: 2px solid rgb(2, 2, 2);
+}
+
+.links3:hover {
+    border-bottom: 2px solid rgb(2, 2, 2);
 }
 
 
@@ -77,19 +85,20 @@ color: #000;
 
 
 #logo {
-    font-size: 10vh;
+    font-size: 9vh;
     font-family: 'nexa';
-    transform: translate(165%, -398%);
+    transform: translate(160%, -368%);
     text-decoration: none;
     text-align: center;
 }
 
 #sublog {
-    font-size: 2.8vh;
+    font-size: 2vh;
     font-family: 'nexa';
-    transform: translate(180%, -800%);
+    transform: translate(70%, -2800%);
     color: #ED7F17;
     text-align: center;
+    white-space: nowrap;
 
 }
 
@@ -155,7 +164,7 @@ color: #000;
 
 
 
-#btn3 {    
+#btn3 {
     text-indent: 25px;
     font-weight: bolder;
     text-decoration: none;
@@ -212,22 +221,22 @@ color: #000;
 #band {
     max-width: 50px;
     left: 50%;
-    transform: translate(-40%, -200%);
+    transform: translate(-40%, -350%);
     text-decoration: none;
 }
 
 #band2 {
     max-width: 10px;
-    transform: translate(-3%, -230%);
+    transform: translate(-3%, -380%);
     text-decoration: none;
 }
 
 #retangulolocal {
-    transform: translate(540px, 18px);
-    Width: 523px;
-    Height: 667px;
+    transform: translate(650px, 25px);
+    Width: 423px;
+    Height: 567px;
     border-radius: 50px;
-    border: 5px solid #ED7F17;
+    border: 4px solid #ED7F17;
     filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
     border-radius: 50px;
     box-sizing: border-box;
@@ -243,8 +252,8 @@ color: #000;
 .landingImage img {
     box-sizing: border-box;
     border-radius: 50px;
-    width: 505.26px;
-    height: 674px;
+    width: 450px;
+    height: 574px;
     text-align: center;
     filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.41));
     border-radius: 50px;
@@ -282,22 +291,22 @@ color: #000;
 }
 
 #propietarios {
-    transform: translate(3%, -5%);
-    height: 600px;
+    transform: translate(3%, 1%);
+    height: 550px;
     width: 450px;
     filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
     background: url(/img/propietarios.jpg) no-repeat;
-    border-radius: 50px;
+    border-radius: 40px;
     position: relative;
 
 }
 
 #retanguloprop {
-    transform: translate(7%, -15px);
-    height: 600px;
+    transform: translate(7%, 25px);
+    height: 550px;
     width: 450px;
     border-radius: 50px;
-    border: 5px solid #000000;
+    border: 4px solid #000000;
     filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
     border-radius: 50px;
     box-sizing: border-box;
@@ -310,7 +319,7 @@ ol {
 }
 
 li p {
-    font-size: 1.5rem;
+    font-size: 1.2vh;
     color: #000;
     padding: 0 30px 0 35px;
     line-height: 25px;
@@ -319,10 +328,9 @@ li p {
 
 
 .historia {
-    font-size: 31px;
-    font-weight: 400;
+    font-size: 25px;
     line-height: 42px;
-    letter-spacing: 0em;
+    font-weight: bolder;
     text-align: center;
 
 }
