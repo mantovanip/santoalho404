@@ -549,7 +549,7 @@ body::-webkit-scrollbar-thumb {
 /* RESPONSIVE */
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 926px) {
 
     .logo {
     display: none;
@@ -579,16 +579,20 @@ body::-webkit-scrollbar-thumb {
         width: 300px;
         justify-content: center;
         text-align: center;
-        transform: translate(50%,5%);
+        transform: translate(45%,2%);
     }
     #logo{
-        font-size: 50px;
-       transform: translate(-50%,-450%);}
+        font-size: 55px;
+       transform: translate(-50%,-402%);}
+    }
+    #sublog{
+        font-weight: bold;
+        font-size: 15px;
+        transform: translate(-60%,-1800%);
 
-
-}
+    }
     #btn{
-        transform: translate(50%,50%);
+        transform: translate(40%,50%);
     }
 
     .landingImage{
