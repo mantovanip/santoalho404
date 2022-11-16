@@ -162,8 +162,6 @@ body {
     flex-grow: 0;
 }
 
-
-
 #btn3 {
     text-indent: 25px;
     font-weight: bolder;
@@ -217,39 +215,41 @@ body {
 
 }
 
-
 #band {
     max-width: 50px;
     left: 50%;
-    transform: translate(-1400%,15%);
+    transform: translate(-1400%, 15%);
     text-decoration: none;
     position: absolute;
 }
 
 #band2 {
     max-width: 10px;
-    transform: translate(-1500%,82%);
+    transform: translate(-1500%, 82%);
     text-decoration: none;
     position: absolute;
 }
-#band3{
+
+#band3 {
     max-width: 50px;
     left: 50%;
-    transform: translate(1200%,5%);
+    transform: translate(1200%, 5%);
     text-decoration: none;
     position: absolute;
 }
+
 #band4 {
     max-width: 50px;
     left: 50%;
-    transform: translate(1000%,-95%);
+    transform: translate(1000%, -95%);
     text-decoration: none;
     position: absolute;
 }
-#band5{
+
+#band5 {
     max-width: 50px;
     left: 50%;
-    transform: translate(1100%,-45%);
+    transform: translate(1100%, -45%);
     text-decoration: none;
     position: absolute;
 }
@@ -350,7 +350,6 @@ li p {
     opacity: 0.6;
 }
 
-
 .historia {
     font-size: 25px;
     line-height: 42px;
@@ -374,7 +373,6 @@ li p {
     position: relative;
 }
 
-
 .infoCards {
 
     height: 300px;
@@ -395,7 +393,8 @@ li p {
     border-radius: 50px;
 
 }
-.retangulolocalone{
+
+.retangulolocalone {
     transform: translate(120%, 7%);
     Width: 350px;
     Height: 380px;
@@ -418,8 +417,9 @@ li p {
 
 
 }
-.retangulolocaltwo{
-    transform: translate(7%,7%);
+
+.retangulolocaltwo {
+    transform: translate(7%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -440,7 +440,8 @@ li p {
 
 
 }
-.retangulolocalthree{
+
+.retangulolocalthree {
     transform: translate(-107%, 7%);
     Width: 350px;
     Height: 380px;
@@ -459,13 +460,15 @@ li p {
     margin: 0 !important;
     text-align: center;
 }
-.txtdestaque{
+
+.txtdestaque {
     font-family: 'NEXA';
     font-size: 45px;
     text-align: center;
     transform: translate(7%, 385px);
 
 }
+
 /* Banner */
 
 .banner {
@@ -547,22 +550,24 @@ body::-webkit-scrollbar-thumb {
 
 
 @media only screen and (max-width: 700px) {
+
     .logo {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        width: auto;
+    display: none;
+        
     }
+.links{
+    display: none;
+}
 
     .nav {
         flex-direction: column;
         justify-content: space-around;
-        padding: 1px;
+        padding: 45px;
         height: auto;
         overflow-y: hidden;
+        background-image: url(/img/Header.png);
+
     }
-
-
 
 
     /* LANDING PAGE */
@@ -570,36 +575,32 @@ body::-webkit-scrollbar-thumb {
     .landing {
         display: flex;
         flex-direction: column-reverse;
-        height: 999px;
+        height: auto;
         width: 300px;
         justify-content: center;
         text-align: center;
+        transform: translate(50%,5%);
+    }
+    #logo{
+        font-size: 50px;
+       transform: translate(-50%,-450%);}
+
+
+}
+    #btn{
+        transform: translate(50%,50%);
     }
 
-    .landingText h1 p {
-        font-size: 7vw;
-        margin: 0 !important;
+    .landingImage{
+        display: none;
     }
-
-    .landingText h2 p {
-        font-size: 16px;
-    }
-
-    .landingText .btn {
-        margin: 0 auto;
-    }
-
-    .landingText .btn a {
-        font-size: 1vw;
-    }
-
     /* ABOUT */
 
 
 
     .aboutText {
         padding: 0 50px;
-        height: 100px;
+        height: 150px;
     }
 
     .aboutText h1 {
