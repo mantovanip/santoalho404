@@ -104,7 +104,7 @@ body {
 }
 
 .imgwhats {
-    transform: translate(10px,10px);
+    transform: translate(10px, 10px);
     line-height: 55px;
     max-width: 30px;
     max-height: 25px;
@@ -553,16 +553,17 @@ body::-webkit-scrollbar-thumb {
     transform: translateX(680%);
     width: 80px;
     position: fixed;
-	text-decoration: none;
-	text-shadow: 0.7px 0.7px black;
-	padding-bottom: 15px;
-	bottom: 5px;
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px black;
+    padding-bottom: 15px;
+    bottom: 5px;
 
 }
 
 .vat:active {
-	background: green;
+    background: green;
 }
+
 /* RESPONSIVE */
 
 
@@ -757,8 +758,9 @@ body::-webkit-scrollbar-thumb {
 
 
     .footer-loja-online {
-        height: 366px;
-        font-size: 13px;
+        height: 100%;
+        float: left;
+        padding: 3% 4%;
         text-align: center;
     }
 }
