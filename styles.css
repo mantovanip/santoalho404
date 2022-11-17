@@ -85,7 +85,7 @@ body {
 
 
 #logo {
-    font-size: 10vh;
+    font-size: 63px;
     font-family: 'nexa';
     transform: translate(140%, -319%);
     text-decoration: none;
@@ -93,9 +93,9 @@ body {
 }
 
 #sublog {
-    font-size: 2vh;
+    font-size: 14px;
     font-family: 'nexa';
-    transform: translate(66%, -2700%);
+    transform: translate(53%, -2400%);
     color: #ED7F17;
     text-align: center;
     white-space: nowrap;
@@ -266,11 +266,7 @@ body {
     position: absolute;
 }
 
-.landingText a {
-    text-align: center;
-    font-size: 1.5vw;
-    color: #fff;
-}
+
 
 .landingImage img {
     position: relative;
