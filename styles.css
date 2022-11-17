@@ -549,6 +549,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+/* BOTAO VOLTAR */
 .vat img {
     transform: translateX(680%);
     width: 80px;
@@ -659,12 +660,11 @@ body::-webkit-scrollbar-thumb {
         margin: 0;
         height: 900px;
         font-size: 25px;
-        transform: translate(-160%, 50%);
+        transform: translate(-155%, 50%);
         text-align: center;
         line-height: normal;
 
     }
-
 
     .infoSection {
         height: 800px;
