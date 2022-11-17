@@ -12,13 +12,6 @@ body {
 }
 
 
-.logo {
-    transform: translate(-30%, 30%);
-    padding: 0 10vw 0 10vw;
-    height: 12vh;
-
-}
-
 
 .nav {
 
@@ -34,6 +27,14 @@ body {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     background-blend-mode: overlay;
+    position: relative;
+
+}
+
+.logo {
+    transform: translate(-30%, 20%);
+    padding: 0 10vw 0 10vw;
+    height: 12vh;
 
 }
 
@@ -597,19 +598,19 @@ body::-webkit-scrollbar-thumb {
 
     #logo {
         font-size: 60px;
-        transform: translate(12%, -310%);
+        transform: translate(5%, -310%);
     }
 
     #sublog {
         font-weight: bolder;
         font-size: 15px;
-        transform: translate(14%, -1250%);
+        transform: translate(7%, -1250%);
 
     }
 
     #btn {
         margin: 80px;
-        transform: translate(115%, 120%);
+        transform: translate(105%, 120%);
     }
 
     #band2 {
@@ -634,13 +635,15 @@ body::-webkit-scrollbar-thumb {
 
     #propietarios {
         background-size: cover;
-        max-width: 370px;
-        transform: translate(-20%, 10%);
+        max-width: 340px;
+        max-height: 460px;
+        transform: translate(-23%, 10%);
     }
 
     #retanguloprop {
-        width: 370px;
-        transform: translate(-15%, 15%);
+        width: 340px;
+        height: 460px;
+        transform: translate(-18%, 15%);
     }
 
     #nossaHistoria {
@@ -654,8 +657,8 @@ body::-webkit-scrollbar-thumb {
         padding: 0;
         margin: 0;
         height: 900px;
-        font-size: 23px;
-        transform: translate(-160%, 60%);
+        font-size: 25px;
+        transform: translate(-160%, 50%);
         text-align: center;
         line-height: normal;
 
@@ -663,22 +666,22 @@ body::-webkit-scrollbar-thumb {
 
 
     .infoSection {
-        height: 900px;
+        height: 800px;
         position: inherit;
     }
 
     #destaques {
-        font-size: 48px;
+        font-size: 35px;
     }
 
     .cardone {
         flex-direction: column;
         justify-content: center;
         height: 180px;
-        width: 200px;
+        width: 250px;
         align-items: center;
         text-align: center;
-        transform: translate(25%, 10%);
+        transform: translate(35%, 10%);
         background-size: cover;
 
     }
@@ -690,7 +693,7 @@ body::-webkit-scrollbar-thumb {
         width: 200px;
         align-items: center;
         text-align: center;
-        transform: translate(-70%, 150%);
+        transform: translate(-60%, 150%);
         background-size: cover;
 
     }
@@ -699,16 +702,16 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
         justify-content: center;
         height: 180px;
-        width: 200px;
+        width: 170px;
         align-items: center;
         text-align: center;
-        transform: translate(-160%, 270%);
+        transform: translate(-150%, 270%);
         background-size: cover;
     }
 
     .txtdestaque {
         transform: translate(130%, 10%);
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .retangulolocalone {
@@ -751,12 +754,10 @@ body::-webkit-scrollbar-thumb {
 
     /* FOOTER */
 
-    .footer {
-        padding-bottom: 10px;
-    }
+
 
     .footer-loja-online {
-        height: 550px;
+        height: 500px;
         font-size: 13px;
         text-align: center;
     }
