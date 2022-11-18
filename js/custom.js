@@ -3,7 +3,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         'verticalCentered': false,
-        'scrollingSpeed': 1000,
+        'scrollingSpeed': 600,
         'autoScrolling': false,
         'css3': true,
         'navigation': true,
@@ -11,3 +11,9 @@ $(document).ready(function() {
     });
 });
 
+// wow
+$(function()
+{
+new WOW().init();
+$(".rotate").textrotator();
+})

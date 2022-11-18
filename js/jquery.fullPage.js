@@ -715,7 +715,7 @@
                             scrollPage(currentSection);
                             isResizing = false;
                         }
-                    }, 1000);
+                    }, 10);
                 }
             }
         }
