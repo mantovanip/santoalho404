@@ -180,7 +180,7 @@ body {
 }
 
 #retangulolocal {
-    transform: translate(188%, 5%);
+    transform: translate(198%, 5%);
     Width: 360px;
     Height: 550px;
     border-radius: 50px;
@@ -234,6 +234,7 @@ body {
     position: relative;
 
 }
+/* fotos proprietarios */
 
 #propietarios {
     transform: translate(3%, -12%);
@@ -265,10 +266,10 @@ ol {
 
 li p {
     font-size: 1.2vh;
-    color: #000;
+    color: rgb(43, 43, 43);
     padding: 0 30px 0 35px;
-    line-height: 25px;
-    opacity: 0.6;
+    line-height: 2px;
+  
 }
 
 .historia {
