@@ -571,11 +571,28 @@ a {
         padding: 45px;
         height: auto;
         overflow-y: hidden;
-        background-image: url(/img/Header.png);
+        background: rgb(0, 0, 0);
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
 
     }
 
     /* LANDING PAGE */
+    #fullpage {
+        margin: 0;
+        padding: 0;
+        background-image: url(/img/local.jpg);
+        border: 1px solid #E85910;
+        border-radius: 165px;
+        background-size: cover;
+
+    }
+
+    #landingImage {
+        background-color: #000;
+        transform: translate(500%, 100%);
+        overflow: hidden;
+    }
 
     .landing {
         display: flex;
@@ -585,20 +602,26 @@ a {
     }
 
     #logo {
+        color: #fff;
         font-size: 60px;
         transform: translate(5%, -310%);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #E85910;
     }
 
     #sublog {
-        font-weight: bolder;
-        font-size: 15px;
-        transform: translate(7%, -1250%);
+        display: none;
 
     }
 
-    #btn {
-        margin: 80px;
-        transform: translate(105%, 120%);
+    #btn1,
+    #btn2,
+    #btn3,
+    #btn4 {
+        border: 2px solid #E85910;
+        background-color: #000;
+        color: #fff;
+        transform: translate(7%, 160%);
     }
 
     #band2 {
@@ -606,9 +629,7 @@ a {
 
     }
 
-    .landingImage {
-        display: none;
-    }
+
 
     /* SOBRE */
 
