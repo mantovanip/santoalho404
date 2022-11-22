@@ -193,7 +193,7 @@ body {
 
 
 
-.landingImage img {
+#landingImage {
     position: relative;
     box-sizing: border-box;
     border-radius: 50px;
@@ -216,13 +216,6 @@ body {
     text-decoration: none;
 }
 
-.div-block-715 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 13px;
-    text-align: center;
-}
 
 /* SOBRE CSS */
 
@@ -234,6 +227,7 @@ body {
     position: relative;
 
 }
+
 /* fotos proprietarios */
 
 #propietarios {
@@ -269,7 +263,7 @@ li p {
     color: rgb(43, 43, 43);
     padding: 0 30px 0 35px;
     line-height: 2px;
-  
+
 }
 
 .historia {
@@ -384,7 +378,7 @@ li p {
 }
 
 .txtdestaque {
-    font-family: 'NEXA';
+    font-family: 'nexa';
     font-size: 45px;
     text-align: center;
     transform: translate(7%, 385px);
@@ -412,6 +406,13 @@ li p {
     font-size: 3vw;
     color: rgb(255, 255, 255);
     font-weight: 600;
+}
+
+
+.midias {
+    position: relative;
+    text-align: center;
+
 }
 
 /*scrollbar*/
@@ -452,13 +453,19 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.footerlinks a {
-    text-decoration: none;
-    margin: 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #000;
+.div-block-715 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 13px;
     text-align: center;
+}
+
+
+a {
+    color: #000;
+    text-align: justify;
+
 }
 
 .footerlinks .mainlink {
@@ -474,6 +481,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+
 /* BOTAO VOLTAR */
 .vat img {
     transform: translateX(680%);
@@ -486,12 +494,11 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.vat:active {
-    background: green;
-}
+
 
 /* RESPONSIVE */
-@media only screen and (min-width: 1920px) {
+
+@media only screen and (min-width: 1380px) {
     #logo {
         transform: translate(85%, -311%);
     }
@@ -499,35 +506,51 @@ body::-webkit-scrollbar-thumb {
     #sublog {
         transform: translate(2%, -1650%);
     }
-    #band{
-        transform: translate(-1910%,38%);
+
+    #band {
+        transform: translate(-1910%, 38%);
     }
-    #band2{
-        transform: translate(-2100%,104%);
+
+    #band2 {
+        transform: translate(-2100%, 104%);
     }
-    #band3{
-        transform: translate(1750%,-24%);
+
+    #band3 {
+        transform: translate(1750%, -24%);
     }
-    #band4{
-        transform: translate(1550%,-117%);
+
+    #band4 {
+        transform: translate(1550%, -117%);
     }
-    #band5{
-        transform: translate(1550%,-55%);
+
+    #band5 {
+        transform: translate(1550%, -55%);
     }
-    #retangulolocal{
-        transform: translate(285%,1%);
+
+    #retangulolocal {
+        transform: translate(285%, 1%);
     }
-    #btn{
-        transform: translate(-20%);
+
+    #btn {
+        transform: translate(-80%);
     }
-    .retangulolocalthree{
-        transform: translate(-159%,7%);
+
+    .retangulolocalthree {
+        transform: translate(-159%, 7%);
     }
-    .retangulolocalone{
-        transform: translate(175%,7%);
+
+    .retangulolocalone {
+        transform: translate(175%, 7%);
     }
-    img{
-        transform: translate(-30%,-5%);
+
+    img {
+        transform: translate(-30%, -5%);
+    }
+
+    a {
+        color: #000;
+        text-align: justify;
+
     }
 }
 
