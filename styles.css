@@ -11,7 +11,7 @@ body {
     text-decoration: none !important;
 }
 
-#logomobile{
+#logomobile {
     display: none;
 }
 
@@ -50,7 +50,9 @@ body {
     float: left;
 }
 
-.links1:hover , .links2:hover , .links3:hover{
+.links1:hover,
+.links2:hover,
+.links3:hover {
     border-bottom: 3px solid rgb(158, 96, 96);
 }
 
@@ -573,10 +575,14 @@ a {
         width: 300px;
     }
 
-#logomobile{
-    width: 190px;
-    transform:translate(60%);
-}
+    #logo {
+        display: none;
+    }
+
+    #logomobile {
+        width: 190px;
+        transform: translate(60%);
+    }
 
     #btn1,
     #btn2,
