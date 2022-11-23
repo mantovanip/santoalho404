@@ -11,7 +11,9 @@ body {
     text-decoration: none !important;
 }
 
-
+#logomobile{
+    display: none;
+}
 
 .nav {
 
@@ -571,7 +573,10 @@ a {
         width: 300px;
     }
 
-
+#logomobile{
+    width: 190px;
+    transform:translate(60%);
+}
 
     #btn1,
     #btn2,
@@ -581,7 +586,7 @@ a {
         border: 2px solid #E85910;
         background-color: #000;
         color: #fff;
-        transform: translate(7%, 160%);
+        transform: translate(7%, -250%);
     }
 
     #band2 {
