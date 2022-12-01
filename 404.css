@@ -112,4 +112,9 @@ svg {
   .btn span {
     font-size: 1rem;
   }
+  .topedindo{
+  }
+  .footertxt{
+    transform: translate(28%,10%);
+  }
 }
