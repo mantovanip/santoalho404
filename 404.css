@@ -84,6 +84,15 @@ svg {
   transform: translateX(-4px);
 }
 
+
+
+
+.footertxt {
+  transform: translateX(44%);
+  font-size: smaller;
+  margin-top: 85px;
+}
+
 /* responsiveness */
 @media (max-width: 550px) {
   svg {
